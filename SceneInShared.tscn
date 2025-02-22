@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmormffcnb6ii"]
+
+[ext_resource type="StyleBox" uid="uid://8gfghk4kl577" path="res://SharedAssets/style_box.tres" id="1_87itc"]
+[ext_resource type="Script" path="res://SharedAssets/SceneInShared.cs" id="2_k7oks"]
+
+[node name="SceneInShared" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = ExtResource("1_87itc")
+script = ExtResource("2_k7oks")
+
+[node name="Container" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Container"]
+layout_mode = 2
+text = "SceneInShared"
