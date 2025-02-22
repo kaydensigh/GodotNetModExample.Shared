@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dmormffcnb6ii"]
 
-[ext_resource type="StyleBox" uid="uid://8gfghk4kl577" path="res://SharedAssets/style_box.tres" id="1_87itc"]
-[ext_resource type="Script" path="res://SharedAssets/SceneInShared.cs" id="2_k7oks"]
+[ext_resource type="StyleBox" uid="uid://8gfghk4kl577" path="res://Shared/style_box.tres" id="1_87itc"]
+[ext_resource type="Script" path="res://Shared/SceneInShared.cs" id="2_k7oks"]
 
 [node name="SceneInShared" type="PanelContainer"]
 anchors_preset = 15

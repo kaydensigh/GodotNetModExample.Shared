@@ -1,2 +1,2 @@
-# GodotNetModExample.SharedAssets
+# GodotNetModExample.Shared
  
