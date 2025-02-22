@@ -1,2 +1,1 @@
-# GodotNetModExample.Shared
- 
+See https://github.com/kaydensigh/GodotNetModExample.Parent
