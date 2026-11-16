@@ -1,11 +1,5 @@
 using Godot;
 
-#if !NESTED_GODOT_LIB
-
-public partial class GodotClassInShared : GodotNetModExample.Shared.GodotClassInShared {}
-
-#else
-
 namespace GodotNetModExample.Shared;
 
 /// <summary>
@@ -26,5 +20,3 @@ public partial class GodotClassInShared : PanelContainer
         Container.AddChild(new Label { Text = GetType().Name });
     }
 }
-
-#endif

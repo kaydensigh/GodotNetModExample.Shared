@@ -1,11 +1,5 @@
 using Godot;
 
-#if !NESTED_GODOT_LIB
-
-public partial class SceneInShared : GodotNetModExample.Shared.SceneInShared {}
-
-#else
-
 namespace GodotNetModExample.Shared;
 
 /// <summary>
@@ -21,5 +15,3 @@ public partial class SceneInShared : PanelContainer
         container.AddChild(new GodotClassInShared { Name = nameof(GodotClassInShared) });
     }
 }
-
-#endif
